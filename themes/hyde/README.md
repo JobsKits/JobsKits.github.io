@@ -1,4 +1,4 @@
-# Hyde
+# <span id="前言">Hyde</span>
 
 Hyde is a brazen two-column [hugo](https://gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
 It pairs a prominent sidebar with uncomplicated content.
@@ -6,7 +6,7 @@ It pairs a prominent sidebar with uncomplicated content.
 ![Hyde screenshot](https://f.cloud.github.com/assets/98681/1831228/42af6c6a-7384-11e3-98fb-e0b923ee0468.png)
 
 
-## Contents
+## Contents <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 - [Installation](#installation)
 - [Options](#options)
@@ -22,9 +22,9 @@ It pairs a prominent sidebar with uncomplicated content.
 - [License](#license)
 
 
-## Installation
+## Installation <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
-### Quick Start
+### Quick Start <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 To give you a running start this installation puts a fully configured [starter repo](https://github.com/forestryio/hyde-hugo-starter) into your Git account and sets it up in a content manager / CMS. 
 
@@ -32,7 +32,7 @@ _[Forestry](https://forestry.io) Starter-Kit:_
 
 [![Import this project into Forestry](https://assets.forestry.io/import-to-forestry.svg)](https://app.forestry.io/quick-start?repo=forestryio/hyde-hugo-starter&provider=github&engine=hugo&version=0.49)
 
-### Standard Installation
+### Standard Installation <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 To install Hyde as your default theme, first install this repository in the `themes/` directory:
 
@@ -46,12 +46,12 @@ Second, specify `hyde` as your default theme in the `config.toml` file. Just add
 at the top of the file.
 
 
-## Options
+## Options <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 Hyde includes some customizable options, typically applied via classes on the `<body>` element.
 
 
-### Sidebar menu
+### Sidebar menu <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 Create a list of nav links in the sidebar by assigning "menu=main" in the front matter, like so:
 
@@ -78,7 +78,7 @@ menus:
       url: https://www.linkedin.com/in/username/
 ```
 
-### Sidebar description
+### Sidebar description <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 Customise the describe of your page using `description`, like so:
 
 **TOML**
@@ -98,7 +98,7 @@ params:
 ```
 
 
-### Sticky sidebar content
+### Sticky sidebar content <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 By default Hyde ships with a sidebar that affixes it's content to the bottom of the sidebar. You can optionally disabled this by removing the `.sidebar-sticky` class from the sidebar's `.container`. Sidebar content will then normally flow from top to bottom.
 
@@ -119,7 +119,7 @@ By default Hyde ships with a sidebar that affixes it's content to the bottom of 
 ```
 
 
-### Themes
+### Themes <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 Hyde ships with eight optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). Apply a theme to change the color scheme (mostly applies to sidebar and links).
 
@@ -149,7 +149,7 @@ params:
 
 To create your own theme, look to the Themes section of [included CSS file](https://github.com/poole/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
 
-### Reverse layout
+### Reverse layout <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 ![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1831230/42b0d3ac-7384-11e3-8d54-2065afd03f9e.png)
 
@@ -171,11 +171,11 @@ params:
   layoutReverse: true
 ```
 
-### Custom CSS
+### Custom CSS <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 Add a file to `assets/css/custom.css` in your Hugo project and it will be appended to the CSS bundle.
 
-### Disqus
+### Disqus <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 You can optionally enable a comment system powered by Disqus for the posts. Simply add the variable `disqusShortname` to your config file.
 
@@ -192,7 +192,7 @@ disqusShortname: spf13
 > **Note:** Previous version 1.0 the Disqus shortname had to be defined inside the `[params]` block.
 
 
-## Google Analytics
+## Google Analytics <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 Google Analytics can be enabled by assigning your tracking code to the `googleAnalytics` variable in the config file:
 
@@ -206,18 +206,20 @@ googleAnalytics = "Your tracking code"
 googleAnalytics: Your tracking code
 ```
 
-## Author
+## Author <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 **Mark Otto**
 - <https://github.com/mdo>
 - <https://twitter.com/mdo>
 
-## Ported By
+## Ported By <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 **Steve Francia**
 - <https://github.com/spf13>
 - <https://twitter.com/spf13>
 
-## License
+## License <a href="#前言" style="font-size:17px; color:green;"><b>🔼</b></a> <a href="#🔚" style="font-size:17px; color:green;"><b>🔽</b></a>
 
 Open sourced under the [MIT license](LICENSE.md).
 
 <3
+
+<a id="🔚" href="#前言" style="font-size:17px; color:green; font-weight:bold;">我是有底线的➤点我回到首页</a>
